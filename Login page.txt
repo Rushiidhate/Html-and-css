@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Saffron.in</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+            <div id="page">
+                <div id="navbar">
+                    <a id="logo" href="#">Saffron.in</a>
+                    <a id="gallery" href="#">Gallery</a>
+                    <a id="seperator">|</a>
+                    <a id="news_and_event" href="#">News and Events</a>
+                    <a id="seperator" href="#">|</a>
+                    <a id="contact_us" href="#">Contact us</a>
+                    <a id="seperator">|</a>
+                    <a id="account" href="#">Account</a>
+                </div>
+                <form id="login">
+                    <h1 style="font-size: 40px;">Login</h>
+                        <div id="input">
+                            <input type="username" placeholder="Enter Username" required>
+                        </div>
+                        <div id="input">
+                            <input type="password" placeholder="Enter password" required>
+                        </div>
+                        <div id="remember">
+                            <label><input type="checkbox">Remember me</label>
+                            <a id="forget" href="#">Forget Password</a>
+                        </div>
+                        <button type="submit" id="btn">Login</button>
+                        <div id="register">
+                             <p>Don't have Account ?<a id="register" href="#">  Register</a></p>   
+                        </div>
+                    
+                </form>
+
+            </div>
+        </form>
+
+    </body>
+</html>
